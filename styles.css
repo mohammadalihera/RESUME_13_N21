@@ -9,7 +9,7 @@
 }
 
 body{
-	background: linear-gradient(to right, #ffffff, #ffffff);
+	background: linear-gradient(to right, #838282, #a8a6a6);
 	margin: 0;
 	padding: 0;
 }
@@ -21,6 +21,8 @@ body{
 	background: rgb(255, 255, 255);
 	margin-left: auto;
 	margin-right:auto;
+	-webkit-box-shadow: 0 0 50px rgb(204, 208, 209);
+	box-shadow: 50 50 50px rgb(228, 225, 225);
 }
 
 .Upper{
@@ -122,7 +124,7 @@ body{
 .image{
 	height: 200px;
 	width: 180px;
-	background-color: white;
+	background-color: rgb(0, 0, 0);
 	margin-top: 20px;
 	margin-left: 65px;
 	clip-path: polygon(51% 0, 51% 0, 100% 22%, 100% 76%, 49% 100%, 0 76%, 0 21%);
